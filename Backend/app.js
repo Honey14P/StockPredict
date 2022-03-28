@@ -17,7 +17,7 @@ connectDB();
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json());
 
-//server connected
+
 // mongoose
 //   .connect(db)
 //   .then(() => {
